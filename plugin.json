@@ -1,7 +1,7 @@
 {
-    "name"              :"HelloWorld",
+    "name"              :"MyHelloWorld",
     "description"       :"My first plugin",
-    "namespace"         :"HelloWorld",
+    "namespace"         :"MyHelloWorld",
     "author"            :"Your name",
     "type"              :"template",
     "serviceProvider"   :"HelloWorld\\Providers\\HelloWorldServiceProvider"
