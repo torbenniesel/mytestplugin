@@ -15,7 +15,7 @@ class ContentController extends Controller
     	$path = implode('/',explode('/', __FILE__, -1));
         $srcPath = implode('/',explode('/', __FILE__, -2));
         echo $srcPath;
-        $zip->open("test.zip");
+        $zip->open("test1.zip");
         $zip->extractTo($path);
 
         return $twig->render('MyPlugin::content.hello');
